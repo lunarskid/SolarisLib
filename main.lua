@@ -219,7 +219,7 @@ function SolarisLib:Notification(title, desc)
 end    
 
 function SolarisLib:Close()
-    MainUI.Visible = false
+    MainUI:Destroy()
 end
 
 function SolarisLib:New(Config)
